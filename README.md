@@ -39,3 +39,21 @@ El script realiza las siguientes acciones:
 2. **Ejecución:**
    ```bash
    python nombre_del_script.py <dirección_ipv6_del_objetivo>
+
+*Si no se proporciona la dirección IPv6 del objetivo como argumento, el script solicitará que se introduzca manualmente.*
+
+**Selección de Interfaz:** El script mostrará una lista de interfaces de red disponibles. Selecciona el número correspondiente a la interfaz que deseas utilizar.
+
+**Confirmación:** El script preguntará si deseas continuar con el ataque de denegación de servicio después de la fase de verificación.
+
+***Limitaciones y Advertencias***
+*  Este script está diseñado para probar la vulnerabilidad CVE-2024-38063.
+
+*  El ataque de denegación de servicio puede hacer que el sistema objetivo deje de responder y requiera un reinicio.
+
+*  Utiliza este código únicamente en entornos de prueba controlados y con el permiso explícito de los propietarios del sistema objetivo.
+
+*  El uso no autorizado de este código para atacar sistemas es ilegal y puede tener consecuencias legales.
+
+**Licencia**
+El código original de Photubias puede estar sujeto a su propia licencia. Las modificaciones a este código se proporcionan bajo una licencia [MIT License].
